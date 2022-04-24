@@ -1,0 +1,30 @@
+body{
+    background: rgb(217, 217, 217);
+}
+#slider{
+    width: 60%;
+    height: 260px;
+    background: #fff;
+    border-radius: 4px;
+    margin:20px auto;
+    box-shadow: 0 0 10px #aaa;
+    padding: 10px;
+    white-space:nowrap ;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #422a47;
+    text-align: center;
+    color: #fff;
+    font-family: lato;
+    font-size: 18px;
+    border-radius: 2px;
+}
